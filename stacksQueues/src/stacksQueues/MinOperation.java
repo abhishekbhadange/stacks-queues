@@ -16,5 +16,8 @@ public class MinOperation {
 		System.out.println("Popped Item: " + temp);
 		min = theStack.min();
 		System.out.println("Min Item: " + min);
+		theStack.push(1);
+		min = theStack.min();
+		System.out.println("Min Item: " + min);
 	}
 }	
