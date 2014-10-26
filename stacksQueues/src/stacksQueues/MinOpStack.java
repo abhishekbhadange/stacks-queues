@@ -24,6 +24,6 @@ public class MinOpStack extends Stack<Integer> {
 		if(s2.empty())
 			return Integer.MAX_VALUE;
 		else
-			return (Integer)s2.peek();
+			return s2.peek();
 	}
 } 
