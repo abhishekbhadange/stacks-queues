@@ -4,6 +4,7 @@ package stacksQueues;
 
 import java.util.Stack;
 
+@SuppressWarnings("serial")
 public class MinOpStack extends Stack<Integer> {
 	public Stack<Integer> s2;
 	public MinOpStack() {
