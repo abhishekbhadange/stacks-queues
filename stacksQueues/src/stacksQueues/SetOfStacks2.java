@@ -40,14 +40,14 @@ public class SetOfStacks2 {
 			}
 		}
 		else {
-			value = (Integer)stacks[i].pop();
+			value = stacks[i].pop();
 		}
 		return value;
 	}
 	public int popAt(int index) throws Exception {
 		int value;
 		if(index <= i && !stacks[index].isEmpty()) {
-			value = (Integer)stacks[index].pop();
+			value = stacks[index].pop();
 		}
 		else {
 			throw new Exception("Trying to pop from empty stack no. " + index);
