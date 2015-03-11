@@ -2,8 +2,8 @@ package stacksQueues;
 
 public class TowersOfHanoi {
 	public static void main(String[] args) {
-		int n = 5;
-		Tower[] towers = new Tower[n];
+		int n = 3;
+		Tower[] towers = new Tower[3];
 		for(int i = 0; i < 3; i++)
 			towers[i] = new Tower(i);
 		for(int i = n; i >= 1; i--)
